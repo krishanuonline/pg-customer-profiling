@@ -1,0 +1,6 @@
+{
+  "name": "PrraniGanga Customer Intelligence",
+  "description": "Enterprise customer intelligence platform with lead tracking, regional potential modeling, lookalike analysis, and predictive farm activity mapping.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

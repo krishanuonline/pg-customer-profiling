@@ -1,0 +1,197 @@
+@import "tailwindcss";
+
+/* 1. Cosmic Charcoal Theme (Dark Mode) */
+.theme-dark {
+  background-color: #0b0f19 !important;
+  color: #f1f5f9 !important;
+
+  /* Card and section backgrounds */
+  .bg-white {
+    background-color: #141b2b !important;
+  }
+  .bg-slate-50 {
+    background-color: #101625 !important;
+  }
+  .bg-slate-100 {
+    background-color: #070a12 !important;
+  }
+  .bg-slate-101, .bg-slate-105 {
+    background-color: #162035 !important;
+  }
+  main {
+    background-color: #070a12 !important;
+  }
+
+  /* Borders */
+  .border-slate-100, .border-slate-150, .border-slate-200, .border-slate-250, .border-slate-350, .border-slate-300 {
+    border-color: #1e293b !important;
+  }
+
+  /* Headers and texts */
+  header.bg-white {
+    background-color: #101625 !important;
+    border-color: #1e293b !important;
+  }
+  .text-slate-900, .text-slate-850, .text-slate-800 {
+    color: #f8fafc !important;
+  }
+  .text-slate-705, .text-slate-750, .text-slate-700, .text-slate-650 {
+    color: #cbd5e1 !important;
+  }
+  .text-slate-600, .text-slate-550, .text-slate-500, .text-slate-450, .text-slate-400 {
+    color: #94a3b8 !important;
+  }
+
+  /* Accent items (indigo to indigo-light) */
+  .text-indigo-600, .text-indigo-650, .text-indigo-750, .text-indigo-505 {
+    color: #818cf8 !important;
+  }
+  .bg-indigo-50 {
+    background-color: #1e1b4b !important;
+    border-color: #312e81 !important;
+    color: #a5b4fc !important;
+  }
+  .bg-indigo-600, .bg-indigo-650, .bg-indigo-755 {
+    background-color: #4f46e5 !important;
+    color: #ffffff !important;
+  }
+  .bg-indigo-600:hover, .bg-indigo-650:hover {
+    background-color: #4338ca !important;
+  }
+
+  /* Inner elements */
+  input, select, textarea {
+    background-color: #161f30 !important;
+    border-color: #2d3b55 !important;
+    color: #f1f5f9 !important;
+  }
+}
+
+/* 2. Forest Emerald Theme (Agricultural / Grasslands) */
+.theme-forest {
+  background-color: #050a07 !important;
+  color: #eaf5f0 !important;
+
+  .bg-white {
+    background-color: #0e1a12 !important;
+  }
+  .bg-slate-50 {
+    background-color: #0a140d !important;
+  }
+  .bg-slate-100 {
+    background-color: #040806 !important;
+  }
+  .bg-slate-101, .bg-slate-105 {
+    background-color: #14281b !important;
+  }
+  main {
+    background-color: #040806 !important;
+  }
+
+  .border-slate-100, .border-slate-150, .border-slate-200, .border-slate-250, .border-slate-350, .border-slate-300 {
+    border-color: #193021 !important;
+  }
+
+  header.bg-white {
+    background-color: #0e1a12 !important;
+    border-color: #193021 !important;
+  }
+  
+  .text-slate-900, .text-slate-850, .text-slate-800 {
+    color: #f4faf7 !important;
+  }
+  .text-slate-705, .text-slate-750, .text-slate-700, .text-slate-650 {
+    color: #cbdad1 !important;
+  }
+  .text-slate-600, .text-slate-550, .text-slate-500, .text-slate-450, .text-slate-400 {
+    color: #8fa396 !important;
+  }
+
+  /* Accent tools */
+  .text-indigo-600, .text-indigo-650, .text-indigo-750, .text-indigo-505 {
+    color: #34d399 !important;
+  }
+  .bg-indigo-50 {
+    background-color: #062416 !important;
+    border-color: #064e3b !important;
+    color: #34d399 !important;
+  }
+  .bg-indigo-600, .bg-indigo-650, .bg-indigo-755 {
+    background-color: #10b981 !important;
+    color: #ffffff !important;
+  }
+  .bg-indigo-600:hover, .bg-indigo-650:hover {
+    background-color: #059669 !important;
+  }
+
+  input, select, textarea {
+    background-color: #122519 !important;
+    border-color: #1d3b28 !important;
+    color: #eaf5f0 !important;
+  }
+}
+
+/* 3. Desert Warmth / Sepia Sunset Theme */
+.theme-warm {
+  background-color: #FAF6ED !important;
+  color: #3b2716 !important;
+
+  .bg-white {
+    background-color: #fefdfa !important;
+    box-shadow: 0 1px 3px 0 rgba(60, 40, 25, 0.03) !important;
+  }
+  .bg-slate-50 {
+    background-color: #f4edd9 !important;
+  }
+  .bg-slate-100 {
+    background-color: #ebe2cb !important;
+  }
+  .bg-slate-101, .bg-slate-105 {
+    background-color: #f1ebd8 !important;
+  }
+  main {
+    background-color: #ebe2cb !important;
+  }
+
+  .border-slate-100, .border-slate-150, .border-slate-200, .border-slate-250, .border-slate-350, .border-slate-300 {
+    border-color: #e6dac1 !important;
+  }
+
+  header.bg-white {
+    background-color: #fefdfa !important;
+    border-color: #e6dac1 !important;
+  }
+  
+  .text-slate-900, .text-slate-850, .text-slate-800 {
+    color: #442a15 !important;
+  }
+  .text-slate-705, .text-slate-750, .text-slate-700, .text-slate-650 {
+    color: #61462e !important;
+  }
+  .text-slate-600, .text-slate-550, .text-slate-500, .text-slate-450, .text-slate-400 {
+    color: #8c7766 !important;
+  }
+
+  .text-indigo-600, .text-indigo-650, .text-indigo-750, .text-indigo-505 {
+    color: #b45309 !important;
+  }
+  .bg-indigo-50 {
+    background-color: #fef3c7 !important;
+    border-color: #fbbf24 !important;
+    color: #b45309 !important;
+  }
+  .bg-indigo-600, .bg-indigo-650, .bg-indigo-755 {
+    background-color: #d97706 !important;
+    color: #ffffff !important;
+  }
+  .bg-indigo-600:hover, .bg-indigo-650:hover {
+    background-color: #b45309 !important;
+  }
+
+  input, select, textarea {
+    background-color: #fefdfa !important;
+    border-color: #ebdcb9 !important;
+    color: #3b2716 !important;
+  }
+}
+
